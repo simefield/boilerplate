@@ -1,0 +1,143 @@
+/*------------------------------------*\
+    VARS.SCSS
+\*------------------------------------*/
+/**
+ * Any variables you find set in inuit.css’ `_vars.scss` that you do not wish to
+ * keep, simply redefine here. This means that if inuit.css, for example, sets
+ * your `$base-font-size` at 16px and you wish it to be 14px, simply redeclare
+ * that variable in this file. inuit.css ignores its own variables in favour of
+ * using your own, so you can completely modify how inuit.css works without ever
+ * having to alter the framework itself.
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $OBJECTS-AND-ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * All of inuit.css’ objects and abstractions are initially turned off by
+ * default. This means that you start any project with as little as possible,
+ * and introducing objects and abstractions is as simple as switching the
+ * following variables to `true`.
+ * 
+ * Remember to turn on the corresponding component in _kitchen-sink.scss
+ */
+$use-grids:         true;
+// $use-flexbox:       true;
+// $use-columns:       true;
+// $use-nav:           true;
+// $use-options:       true;
+// $use-pagination:    true;
+// $use-breadcrumb:    true;
+$use-media:         true;
+// $use-marginalia:    true;
+// $use-island:        true;
+$use-block-list:    true;
+// $use-matrix:        true;
+// $use-split:         true;
+// $use-this-or-this:  true;
+// $use-link-complex:  true;
+// $use-flyout:        true;
+// $use-arrows:        true;
+// $use-sprite:        true;
+// $use-icon-text:     true;
+// $use-beautons:      true;
+// $use-lozenges:      true;
+// $use-rules:         true;
+// $use-stats:         true;
+$use-greybox:       true;
+
+
+
+
+
+/*------------------------------------*\
+    $OVERRIDES
+\*------------------------------------*/
+/**
+ * Place any variables that should override inuit.css’ defaults here.
+ * 
+ * We'll comment these in as we need them
+ * The trues and falses below are already reversed from _defaults.scss
+ */
+// $debug-mode:        true;
+
+// $global-border-box: false;
+
+// $base-font-size:    16px;
+// $base-line-height:  24px;
+
+// $base-font-family:  sans-serif;
+// $base-ui-color:     #ccc;
+
+// $responsive:        false;
+// $responsive-extra:  true;
+
+// $push:              true;
+// $palm-push:         true;
+// $lap-push:          true;
+// $lap-and-up-push:   true;
+// $portable-push:     true;
+// $desk-push:         true;
+
+// $pull:              true;
+// $palm-pull:         true;
+// $lap-pull:          true;
+// $lap-and-up-pull:   true;
+// $portable-pull:     true;
+// $desk-pull:         true;
+
+// Override Inuit's pixel-based breakpoints with em-based alternatives
+// Arrghhh... incompatible with the pixel-based variables being set in media-query in /generic/_mixins.scss
+// $lap-start:         30.0625em;
+// $desk-start:        64em;
+// $desk-wide-start:   75em;
+// $palm-end:          30em; // $lap-start - 1px
+// $lap-end:           63.9375em; // $desk-start - 1px;
+
+// $giga-size:         96px;
+// $mega-size:         72px;
+// $kilo-size:         48px;
+// $h1-size:           36px; // .alpha
+// $h2-size:           30px; // .beta
+// $h3-size:           24px; // .gamma
+// $h4-size:           20px; // .delta
+// $h5-size:           16px; // .epsilon
+// $h6-size:           14px; // .zeta
+// $milli-size:        12px;
+// $micro-size:        10px;
+
+// $english-quotes:    false;
+// $open-quote:    null;
+// $close-quote:   null;
+// @if $english-quotes != false{
+//     $open-quote:    \00AB;
+//     $close-quote:   \00BB;
+// }
+
+// $brand-color:       #4a8ec2;
+// $brand-face:        "Helvetica Neue", sans-serif;
+// $brand-round:        4px;
+
+// $base-spacing-unit: $base-line-height;
+// $half-spacing-unit: $base-spacing-unit / 2;
+// $line-height-ratio: $base-line-height / $base-font-size;
+
+
+
+
+
+/*------------------------------------*\
+    $CUSTOM
+\*------------------------------------*/
+/**
+ * Place any of your own variables that sit on top of inuit.css here.
+ */
+
+
+
+
+

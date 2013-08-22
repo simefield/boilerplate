@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    $KITCHEN-SINK.CSS
+\*------------------------------------*/
+/*
+ * /kitchen-sink/index.html
+ * This is effectively a style / code guide
+ * List of Inuit components to show / hide as we add (or remove) them
+ * To reveal a component in the kitchen sink simply comment it's name out below
+ *
+ * Remember to switch the corresponding component to 'true' in _vars.scss
+ */
+@each $ks-component in
+    arrows,
+    beautons,
+    block-list,
+    columns,
+    flyout,
+    greybox,
+    // grids,
+    breadcrumbs,
+    island,
+    link-complex,
+    lozenges,
+    marginalia,
+    flexbox,
+    matrix,
+    // media,
+    images,
+    options,
+    nav,
+    pagination,
+    rule,
+    split,
+    stats,
+    tables,
+    this-or-that,
+    forms,
+    typography,
+    mixins,
+    helper {
+        .component-#{$ks-component} {
+            display: none;
+        }
+    }
+
+
+
+/*
+ * Basic page layout
+ */
+body {
+  max-width: 1100px;
+  margin: 1em auto;
+}
+section {
+    border-bottom: 6px solid #000;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+

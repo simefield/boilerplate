@@ -1,0 +1,100 @@
+/*------------------------------------*\
+    $KITCHEN-SINK.CSS
+\*------------------------------------*/
+/*
+ * /kitchen-sink/index.html
+ * This is effectively a style / code guide
+ * List of Inuit components to show / hide as we add (or remove) them
+ * To reveal a component in the kitchen sink simply comment it's name out below
+ *
+ * Remember to switch the corresponding component to 'true' in _vars.scss
+ */
+.component-arrows {
+  display: none; }
+
+.component-beautons {
+  display: none; }
+
+.component-block-list {
+  display: none; }
+
+.component-columns {
+  display: none; }
+
+.component-flyout {
+  display: none; }
+
+.component-greybox {
+  display: none; }
+
+.component-breadcrumbs {
+  display: none; }
+
+.component-island {
+  display: none; }
+
+.component-link-complex {
+  display: none; }
+
+.component-lozenges {
+  display: none; }
+
+.component-marginalia {
+  display: none; }
+
+.component-flexbox {
+  display: none; }
+
+.component-matrix {
+  display: none; }
+
+.component-images {
+  display: none; }
+
+.component-options {
+  display: none; }
+
+.component-nav {
+  display: none; }
+
+.component-pagination {
+  display: none; }
+
+.component-rule {
+  display: none; }
+
+.component-split {
+  display: none; }
+
+.component-stats {
+  display: none; }
+
+.component-tables {
+  display: none; }
+
+.component-this-or-that {
+  display: none; }
+
+.component-forms {
+  display: none; }
+
+.component-typography {
+  display: none; }
+
+.component-mixins {
+  display: none; }
+
+.component-helper {
+  display: none; }
+
+/*
+ * Basic page layout
+ */
+body {
+  max-width: 1100px;
+  margin: 1em auto; }
+
+section {
+  border-bottom: 6px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 2em; }
