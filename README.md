@@ -62,6 +62,3 @@ Read loads of Harry the Wizards blog: http://csswizardry.com/
 
 #### Reading
 + https://github.com/csswizardry/CSS-Guidelines
-
-
-## [ASB Kitchen sink](http://htmlpreview.github.io/?https://github.com/simefield/asb/blob/master/kitchen-sink/index.html)
