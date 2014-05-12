@@ -1,10 +1,4 @@
-<!-- ![inuit.css](http://inuitcss.com/img/content/logo.png) -->
-
 <!-- ![burp!](http://richardsime.com/portfolio/images/doodle_belchies2.gif) -->
-
-# ASB getting started
-
-
 
 ## SASS
 
